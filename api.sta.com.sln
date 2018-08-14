@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STA", "Windows\Libraries\STA\STA.csproj", "{EFEF610F-A4EF-48EA-B53D-C77CF25251E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.sta.com", "Web\Applications\api.sta.com\api.sta.com.csproj", "{D553294A-5F3B-411B-84A8-EE133633B70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS", "Windows\Libraries\LMS\LMS.csproj", "{5A87EEA5-9C99-4507-A966-EA39A9F53C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STATest", "Windows\Libraries\STATest\STATest.csproj", "{F5A277B8-4930-4093-BD54-B1BD6AF43367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFEF610F-A4EF-48EA-B53D-C77CF25251E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEF610F-A4EF-48EA-B53D-C77CF25251E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEF610F-A4EF-48EA-B53D-C77CF25251E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEF610F-A4EF-48EA-B53D-C77CF25251E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D553294A-5F3B-411B-84A8-EE133633B70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D553294A-5F3B-411B-84A8-EE133633B70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D553294A-5F3B-411B-84A8-EE133633B70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D553294A-5F3B-411B-84A8-EE133633B70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A87EEA5-9C99-4507-A966-EA39A9F53C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A87EEA5-9C99-4507-A966-EA39A9F53C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A87EEA5-9C99-4507-A966-EA39A9F53C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A87EEA5-9C99-4507-A966-EA39A9F53C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A277B8-4930-4093-BD54-B1BD6AF43367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A277B8-4930-4093-BD54-B1BD6AF43367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A277B8-4930-4093-BD54-B1BD6AF43367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A277B8-4930-4093-BD54-B1BD6AF43367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6606BCA0-C670-42EE-9CEF-AB76A61A6B55}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sokinsky.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Windows\\Libraries\\STA\\STA.csproj
+		SccProjectName1 = Windows/Libraries/STA
+		SccLocalPath1 = Windows\\Libraries\\STA
+		SccProjectUniqueName2 = Web\\Applications\\api.sta.com\\api.sta.com.csproj
+		SccProjectName2 = Web/Applications/api.sta.com
+		SccLocalPath2 = Web\\Applications\\api.sta.com
+		SccProjectUniqueName3 = Windows\\Libraries\\LMS\\LMS.csproj
+		SccProjectName3 = Windows/Libraries/LMS
+		SccLocalPath3 = Windows\\Libraries\\LMS
+		SccProjectUniqueName4 = Windows\\Libraries\\STATest\\STATest.csproj
+		SccProjectName4 = Windows/Libraries/STATest
+		SccLocalPath4 = Windows\\Libraries\\STATest
+	EndGlobalSection
+EndGlobal
